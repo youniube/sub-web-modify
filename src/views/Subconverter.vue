@@ -345,7 +345,7 @@ export default {
           nameless13提供: "https://www.nameless13.com",
           subconverter作者提供: "https://sub.xeton.dev",
           "sub-web作者提供": "https://api.wcc.best",
-          "localhost:25500 本地版": "http://localhost:25500",
+          "本地后端": "http://127.0.0.1:25500",
         },
         backendOptions: [
           { value: "https://subapi.cmliussss.net" },
@@ -355,6 +355,7 @@ export default {
           { value: "https://www.nameless13.com" },
           { value: "https://sub.xeton.dev" },
           { value: "https://api.wcc.best" },
+          { value: "http://127.0.0.1:25500" },
         ],
         remoteConfig: [
           {
