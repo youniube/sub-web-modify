@@ -28,7 +28,7 @@
               </el-form-item>
               <el-form-item label="后端地址:">
                 <el-select v-model="form.customBackend" allow-create filterable @change="selectChanged"
-                  placeholder="http://localhost:25500" style="width: 100%">
+                  placeholder="可输入自己的后端" style="width: 100%">
                   <el-option v-for="(v, k) in options.customBackend" :key="k" :label="k" :value="v"></el-option>
                 </el-select>
               </el-form-item>
@@ -345,6 +345,7 @@ export default {
           nameless13提供: "https://www.nameless13.com",
           subconverter作者提供: "https://sub.xeton.dev",
           "sub-web作者提供": "https://api.wcc.best",
+          "localhost:25500 本地版": "http://localhost:25500",
         },
         backendOptions: [
           { value: "https://subapi.cmliussss.net" },
