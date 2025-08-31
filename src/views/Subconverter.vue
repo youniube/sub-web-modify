@@ -345,7 +345,7 @@ export default {
           nameless13提供: "https://www.nameless13.com",
           subconverter作者提供: "https://sub.xeton.dev",
           "sub-web作者提供": "https://api.wcc.best",
-          "本地后端": "http://127.0.0.1:25500",
+          "dyzh后端": "https://dyzh.958766.xyz",
         },
         backendOptions: [
           { value: "https://subapi.cmliussss.net" },
@@ -1279,3 +1279,4 @@ export default {
   }
 };
 </script>
+
