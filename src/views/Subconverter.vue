@@ -346,6 +346,7 @@ export default {
           subconverter作者提供: "https://sub.xeton.dev",
           "sub-web作者提供": "https://api.wcc.best",
           "dyzh后端": "https://dyzh.958766.xyz",
+          "dyzh2后端": "https://dyzh2.958766.xyz",
         },
         backendOptions: [
           { value: "https://subapi.cmliussss.net" },
@@ -355,7 +356,8 @@ export default {
           { value: "https://www.nameless13.com" },
           { value: "https://sub.xeton.dev" },
           { value: "https://api.wcc.best" },
-          { value: "http://127.0.0.1:25500" },
+          { value: "https://dyzh.958766.xyz" },
+          { value: "https://dyzh2.958766.xyz" },
         ],
         remoteConfig: [
           {
@@ -1279,4 +1281,5 @@ export default {
   }
 };
 </script>
+
 
